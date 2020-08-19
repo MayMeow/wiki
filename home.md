@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2020-08-19T07:09:33.202Z
+date: 2020-08-19T07:28:44.034Z
 tags: 
 editor: markdown
 ---
@@ -13,4 +13,4 @@ editor: markdown
 
 Take this Wiki more as my public notebook. I hope you can find here something useful (or maybe not 🙃)
 
-![emma.jpg](/emma.jpg)
+![emma-sm.jpg](/emma-sm.jpg)
