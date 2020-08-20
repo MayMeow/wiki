@@ -2,7 +2,7 @@
 title: 👾 Services @ MayMeow's cloud
 description: 
 published: true
-date: 2020-08-20T14:09:03.503Z
+date: 2020-08-20T21:52:50.022Z
 tags: 
 editor: markdown
 ---
@@ -18,6 +18,7 @@ editor: markdown
 - [Databases](https://adminer.cloud.themaymeow.com)
 - [File storage](https://next.cloud.themaymeow.com)
 - [CI/CD](https://drone.cloud.themaymeow.com)
+- [Mastodon](https://mstdn.cloud.themaymeow.com)
 
 💜 MayMeow also supporting static site hosting on S3 storage with s3www.
 
