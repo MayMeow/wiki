@@ -1,8 +1,8 @@
 ---
-title: Home
+title: 🏡 Home
 description: 
 published: true
-date: 2020-08-19T07:28:44.034Z
+date: 2020-08-20T14:09:33.765Z
 tags: 
 editor: markdown
 ---
