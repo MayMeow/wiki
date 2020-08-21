@@ -2,7 +2,7 @@
 title: Gitea backup and restore
 description: 
 published: true
-date: 2020-08-20T14:04:08.913Z
+date: 2020-08-21T06:04:05.959Z
 tags: 
 editor: markdown
 ---
@@ -18,7 +18,7 @@ docker exec -u git -it -w /tmp $(docker ps -qf "name=gitea_gitea_1") bash -c '/a
 This script will create .zip file in /tmp of your gitea image so do not forge to copy it to presistent storage. I have mountoed volume `/gitea-backup`.
 
 ```bash
-docker exec -u git -it -w /tmp $(docker ps -qf "name=gitea_gitea_1") bash -c 'cp /tmp/* /gitea-backup'
+docker exec -it -w /tmp $(docker ps -qf "name=gitea_gitea_1") bash -c 'cp -r /tmp/* /gitea-backup'
 ```
 
 ## Restore
