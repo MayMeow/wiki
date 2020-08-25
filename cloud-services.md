@@ -2,7 +2,7 @@
 title: 👾 Services @ MayMeow's cloud
 description: 
 published: true
-date: 2020-08-20T21:52:50.022Z
+date: 2020-08-25T20:49:41.555Z
 tags: 
 editor: markdown
 ---
@@ -15,7 +15,7 @@ editor: markdown
 - [Git](https://git.cloud.themaymeow.com)
 - [S3 Compatibile storage](https://s3.cloud.themaymeow.com)
 - [Wiki](https://wiki.cloud.themaymeow.com)
-- [Databases](https://adminer.cloud.themaymeow.com)
+- [Databases](https://adminer.cloud.themaymeow.com) (Not Provided)
 - [File storage](https://next.cloud.themaymeow.com)
 - [CI/CD](https://drone.cloud.themaymeow.com)
 - [Mastodon](https://mstdn.cloud.themaymeow.com)
