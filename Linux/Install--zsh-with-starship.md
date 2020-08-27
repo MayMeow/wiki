@@ -2,7 +2,7 @@
 title: Installing ZSH with Starship theme
 description: 
 published: true
-date: 2020-08-27T07:19:01.300Z
+date: 2020-08-27T07:24:10.587Z
 tags: 
 editor: markdown
 ---
@@ -21,6 +21,8 @@ Install Oh my ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+*more information you can find https://github.com/ohmyzsh/ohmyzsh*
+
 ## Install Starship theme 
 
 Run following script
@@ -29,10 +31,16 @@ Run following script
 curl -fsSL https://starship.rs/install.sh | bash
 ```
 
-add following at end of `.zshrc` file
+update your `.zshrc` file
+
+```bash
+# do not use sudo
+nano ~/.zshrc
+```
+add following at end 
 
 ```bash
 eval "$(starship init zsh)"
 ```
 
-Logout and login.
+Logout and login. 🎉 open terminal
