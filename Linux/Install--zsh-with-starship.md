@@ -2,8 +2,8 @@
 title: 🙃 Installing ZSH with Starship theme
 description: 
 published: true
-date: 2020-08-27T07:25:12.400Z
-tags: 
+date: 2020-08-27T07:27:31.762Z
+tags: linux, shell, zsh
 editor: markdown
 ---
 
