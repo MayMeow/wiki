@@ -2,7 +2,7 @@
 title: Mastodon Maintenance
 description: 
 published: true
-date: 2020-08-25T11:48:14.042Z
+date: 2020-08-30T13:57:39.002Z
 tags: 
 editor: markdown
 ---
@@ -112,4 +112,18 @@ new admin
 
 ```
 docker-compose -f prod-docker-compose.yml run --rm mastodon-web bin/tootctl accounts create emma --email emma@themaymeow.com --confirmed --role admin
+```
+
+## Add Mutatnt Emojis (optional)
+
+Download emojis
+
+```bash
+wget https://mutant.tech/dl/2020.04/mtnt_2020.04_masto.tgz -O /path/to/emoji
+```
+
+Run following command on your docker container
+
+```bash
+docker-compose -f prod-docker-compose.yml run --rm -v /pat/to/emoji/:/mutant mastodon-web  bin/tootctl emoji import /mutant/mtnt_2020.04_masto.tgz
 ```
