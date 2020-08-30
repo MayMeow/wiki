@@ -2,12 +2,10 @@
 title: 🔐 PHP Encrypt
 description: 
 published: true
-date: 2020-08-30T14:05:56.717Z
+date: 2020-08-30T14:06:35.015Z
 tags: 
 editor: markdown
 ---
-
-# Header
 
 # PHP Encrypt
 
