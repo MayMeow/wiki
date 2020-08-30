@@ -2,7 +2,7 @@
 title: Mastodon Maintenance
 description: 
 published: true
-date: 2020-08-30T13:57:39.002Z
+date: 2020-08-30T14:02:53.607Z
 tags: 
 editor: markdown
 ---
@@ -71,7 +71,7 @@ Precompile assets
 docker-compose -f prod-docker-compose.yml run --rm mastodon-web rails assets:precompile
 ```
 
-## Backup
+## 📦 Backup
 
 To backup database run
 
@@ -81,7 +81,7 @@ docker exec -t mastodon_mastodon-postgres_1 pg_dump -c -U postgres > mastodon_`d
 
 Next you have to backup mastodon data. If you using S3 storage then you can skip this because fileas are backed up by your provider.
 
-## Restore (optionlal)
+## 🔃 Restore (optionlal)
 
 Restoring database
 
@@ -114,7 +114,7 @@ new admin
 docker-compose -f prod-docker-compose.yml run --rm mastodon-web bin/tootctl accounts create emma --email emma@themaymeow.com --confirmed --role admin
 ```
 
-## Add Mutatnt Emojis (optional)
+## 😎 Add Mutatnt Emojis (optional)
 
 Download emojis
 
