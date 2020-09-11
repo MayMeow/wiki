@@ -2,8 +2,8 @@
 title: 🆙 File Upload plugin
 description: File upload plugin for CakePHP
 published: true
-date: 2020-09-11T20:48:53.962Z
-tags: cakephp, composer, cakephp-plugin
+date: 2020-09-11T20:52:36.296Z
+tags: cakephp, composer, cakephp-plugin, php
 editor: markdown
 ---
 
