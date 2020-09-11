@@ -2,7 +2,7 @@
 title: 🏡 Home
 description: 
 published: true
-date: 2020-08-25T11:49:59.816Z
+date: 2020-09-11T20:35:57.169Z
 tags: 
 editor: markdown
 ---
@@ -13,6 +13,6 @@ editor: markdown
 
 Take this Wiki more as my public notebook. I hope you can find here something useful (or maybe not 🙃)
 
-![emma-sm.jpg](/emma-sm.jpg)
+![emma@0.25x.png](/emma@0.25x.png)
 
 If you find any mistakes you can send me an email or DM on mastodon to `@emma@mstdn.cloud.themaymeow.com`.
