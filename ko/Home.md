@@ -2,7 +2,7 @@
 title: 🏡 Home
 description: 
 published: true
-date: 2020-09-11T21:00:19.208Z
+date: 2020-09-11T21:01:22.043Z
 tags: 
 editor: markdown
 ---
