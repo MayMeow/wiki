@@ -2,7 +2,7 @@
 title: 👾 Services @ MayMeow's cloud
 description: 
 published: true
-date: 2020-08-25T20:49:41.555Z
+date: 2020-10-08T08:10:00.627Z
 tags: 
 editor: markdown
 ---
@@ -12,13 +12,16 @@ editor: markdown
 
 ☁ Available services
 
-- [Git](https://git.cloud.themaymeow.com)
 - [S3 Compatibile storage](https://s3.cloud.themaymeow.com)
 - [Wiki](https://wiki.cloud.themaymeow.com)
-- [Databases](https://adminer.cloud.themaymeow.com) (Not Provided)
 - [File storage](https://next.cloud.themaymeow.com)
-- [CI/CD](https://drone.cloud.themaymeow.com)
 - [Mastodon](https://mstdn.cloud.themaymeow.com)
+
+Currently not available
+
+- [Git](https://git.cloud.themaymeow.com)
+- [Databases](https://adminer.cloud.themaymeow.com)
+- [CI/CD](https://drone.cloud.themaymeow.com)
 
 💜 MayMeow also supporting static site hosting on S3 storage with s3www.
 
