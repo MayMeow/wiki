@@ -2,9 +2,9 @@
 title: 🏡 Home
 description: 
 published: true
-date: 2020-09-11T20:35:57.169Z
+date: 2020-09-11T20:36:00.626Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # 💜 Emma's Wiki @ TheMayMeow Cloud

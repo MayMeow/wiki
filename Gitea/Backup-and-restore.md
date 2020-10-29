@@ -2,9 +2,9 @@
 title: Gitea backup and restore
 description: 
 published: true
-date: 2020-08-21T06:04:05.959Z
+date: 2020-08-21T06:04:13.479Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Gitea backup and restore

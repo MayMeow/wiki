@@ -2,9 +2,9 @@
 title: Mastodon Maintenance
 description: 
 published: true
-date: 2020-08-30T14:02:53.607Z
+date: 2020-08-30T14:02:59.653Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # 🐘 Mastodon maintenance

@@ -2,9 +2,9 @@
 title: Backing up postgres docker
 description: 
 published: true
-date: 2020-08-20T13:28:18.131Z
+date: 2020-08-20T13:28:22.644Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Backing up postgres docker
