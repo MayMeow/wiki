@@ -2,9 +2,9 @@
 title: 👾 Services @ MayMeow's cloud
 description: 
 published: true
-date: 2020-10-08T08:10:04.701Z
+date: 2021-01-25T10:52:46.726Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Services @ MayMeow's cloud
@@ -16,6 +16,7 @@ editor: undefined
 - [Wiki](https://wiki.cloud.themaymeow.com)
 - [File storage](https://next.cloud.themaymeow.com)
 - [Mastodon](https://mstdn.cloud.themaymeow.com)
+- [GitLab](https://gitlab.cloud.themaymeow.com)
 
 Currently not available
 
