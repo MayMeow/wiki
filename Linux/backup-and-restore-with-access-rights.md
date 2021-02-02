@@ -2,8 +2,8 @@
 title: Backup and restore using TAR and keep access rights
 description: 
 published: true
-date: 2021-02-02T19:08:39.761Z
-tags: 
+date: 2021-02-02T19:11:10.684Z
+tags: linux, shell
 editor: markdown
 ---
 
