@@ -2,7 +2,7 @@
 title: Samba Install and Configure
 description: 
 published: true
-date: 2021-02-24T12:13:23.256Z
+date: 2021-02-24T12:25:59.915Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T12:11:26.112Z
@@ -98,3 +98,36 @@ Once you have password you can enable account
 ``` bash
 sudo smbpasswd -e maymeow
 ```
+
+You can create more users by following this seps if you need them.
+
+## Configuring Samba shares
+
+``` bash
+sudo nano /etc/samba/smb.conf
+```
+
+``` bash
+[users]
+    path = /samba/users
+    browseable = yes
+    read only = no
+    force create mode = 0660
+    force directory mode = 2770
+    valid users = @sambashare @sadmin
+
+[josh]
+    path = /samba/maymeow
+    browseable = no
+    read only = no
+    force create mode = 0660
+    force directory mode = 2770
+    valid users = maymeow @sadmin
+```
+
+* `path` path to share
+* `browseable` whether thw folder is listed or no in shares list. By setting to `no` users cannot see this share in list
+* `read only` whether the `valid users` have abilty to write to this folder.
+* `force create mode` permissions for newly created files
+* `force directory mode` permissions for newly created folders
+* `valid users` list of users that are allowed to acces this folder. one with `@` prefix are groups
