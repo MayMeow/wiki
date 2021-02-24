@@ -2,7 +2,7 @@
 title: Samba Install and Configure
 description: 
 published: true
-date: 2021-02-24T12:11:26.112Z
+date: 2021-02-24T12:13:23.256Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T12:11:26.112Z
@@ -85,4 +85,16 @@ sudo mkdir /samba/maymeow
 sudo chown maymeow:sambashare /samba/maymeow
 
 sudo chmod 2770 /samba/josh
+```
+
+Add user to samba by setting password for account
+
+``` bash
+sudo smbpasswd -a maymeow
+```
+
+Once you have password you can enable account
+
+``` bash
+sudo smbpasswd -e maymeow
 ```
