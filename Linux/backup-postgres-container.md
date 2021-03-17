@@ -2,7 +2,7 @@
 title: Backup postgres container
 description: 
 published: true
-date: 2021-03-17T10:45:42.876Z
+date: 2021-03-17T10:55:25.172Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-17T10:45:42.876Z
@@ -17,9 +17,11 @@ I using following script to backup my postgres containers
 backup_date=$(date +%d-%m-%Y"_"%H_%M_%S)
 TEMP_DIR="/tmp"
 MC_PATH="/usr/local/bin/mcli"
-DOCKER_PG_CONTAINER="container_name"
+
+# Container and adatabase information
+DOCKER_PG_CONTAINER="container-postgres_1"
 PG_USER="postgres"
-PG_DB_NAME="database_name"
+PG_DB_NAME="database"
 S3_BUCKET="home/cloud-backup"
 
 # Run Backup
@@ -30,6 +32,10 @@ tar -czpf ${TEMP_DIR}/backup_${PG_DB_NAME}_${backup_date}.tar.gz ${TEMP_DIR}/${P
 
 # Upload Backup to remote location
 ${MC_PATH} cp ${TEMP_DIR}/backup_${PG_DB_NAME}_${backup_date}.tar.gz ${S3_BUCKET}
+
+# Send notification to monitoring
+statuscode=$?
+zabbix_sender -c /etc/zabbix/zabbix_agentd.conf -s hostname -k zabbix-server.tld -o ${statuscode}
 ```
 
 To run it automatically move it to `/usr/local/sbin/script_name.sh`
