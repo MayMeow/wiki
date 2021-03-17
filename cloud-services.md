@@ -2,9 +2,9 @@
 title: 👾 Services @ MayMeow's cloud
 description: 
 published: true
-date: 2021-02-02T19:15:29.678Z
+date: 2021-03-17T09:56:20.762Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-08-16T14:05:03.894Z
 ---
 
@@ -29,3 +29,5 @@ dateCreated: 2020-08-16T14:05:03.894Z
 💜 MayMeow also supporting static site hosting on S3 storage with s3www.
 
 Server is hosted by Me [MayMeow](https://www.themaymeow.com/) on [Hetzner](https://www.hetzner.com/). Data are located in EU.
+
+Adding Zabbix monitoring to all my services
