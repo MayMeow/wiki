@@ -5,6 +5,7 @@ published: true
 date: 2020-08-19T06:12:30.907Z
 tags: 
 editor: undefined
+dateCreated: 2020-08-19T06:11:43.698Z
 ---
 
 # Add new user to Minio server and assign bucket

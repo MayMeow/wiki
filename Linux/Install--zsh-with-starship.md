@@ -5,6 +5,7 @@ published: true
 date: 2020-08-27T07:27:35.266Z
 tags: 
 editor: undefined
+dateCreated: 2020-08-27T07:19:01.300Z
 ---
 
 # Install ZSH with Starship 🚀

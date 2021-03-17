@@ -5,6 +5,7 @@ published: true
 date: 2020-08-20T13:28:22.644Z
 tags: 
 editor: undefined
+dateCreated: 2020-08-20T13:28:18.131Z
 ---
 
 # Backing up postgres docker

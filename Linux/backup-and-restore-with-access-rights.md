@@ -2,9 +2,10 @@
 title: Backup and restore using TAR and keep access rights
 description: 
 published: true
-date: 2021-02-02T19:11:10.684Z
-tags: linux, shell
-editor: markdown
+date: 2021-02-02T19:11:13.353Z
+tags: 
+editor: undefined
+dateCreated: 2021-02-02T19:08:39.761Z
 ---
 
 Can be used when you need to move folder between servers and want to keep access rights. Or just for backup. I used this commands when I want move docker volume (data folders) between servers. Used this just few times but its good to know

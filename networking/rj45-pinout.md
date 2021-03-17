@@ -2,9 +2,9 @@
 title: RJ45 Pinout
 description: 
 published: true
-date: 2021-02-03T08:30:05.876Z
+date: 2021-02-03T08:30:07.585Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2021-02-03T08:30:05.876Z
 ---
 

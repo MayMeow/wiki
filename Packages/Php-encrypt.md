@@ -2,9 +2,9 @@
 title: 🔐 PHP Encrypt
 description: 
 published: true
-date: 2021-02-22T08:36:35.634Z
-tags: composer, php, encryption, security
-editor: markdown
+date: 2021-02-22T08:36:37.300Z
+tags: 
+editor: undefined
 dateCreated: 2020-08-30T14:05:56.716Z
 ---
 
